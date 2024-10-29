@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+   
+  body {
+    background-color:#F1F4F9;
+    margin: 10px auto;
+    margin-top: 15px;
+    font-family: "Lato";
+    font-weight: 300;
+    max-width:800px; 
+    padding: 3px;
+  }
+   
+  form {
+    padding: 15px 25px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+  }
+   
+  form label {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+   
+  input {
+    font-family: "Lato";
+    font-size: 17px;
+    height: 28px;
+  }
+   
+  a {
+    color: #0000ff;
+    text-decoration: none;
+  }
+   
+  a:hover {
+    text-decoration: none;
+  }
